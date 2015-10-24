@@ -18,3 +18,4 @@ class Answer(models.Model):
 	session_id = models.ForeignKey(Session)
 	answer_text = models.CharField(max_length=200)
 	timestamp = models.DateTimeField(auto_now=True)
+	
